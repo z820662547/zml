@@ -12,6 +12,21 @@
     android:layout_height="76dip"
     android:layout_x="18px"
     android:textSize="18dip"
-    android:layout_y="105px"/>
-
+    android:layout_y="105px"
+    />
+<TextView android:id="@+id/TextView02"
+    android:layout_width="244dip"
+    android:layout_height="wrap_content"
+    android:layout_x="18px"
+    android:textSize="18dip"
+    android:layout_y="20px"
+    android:text="@string/str_text"
+    />
+<EditText android:id="@+id/EditText01"
+     android:layout_width="262px"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:layout_x="14px"
+     android:layout_y="44px"
+    />
 </AbsoluteLayout>
